@@ -1,0 +1,205 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.site-header .header-element {
+  margin-top: 92px;
+  width: 100%;
+  height: 350px;
+  background: #fafafa url('../img/about_header.png') no-repeat right;
+  display: flex;
+  align-items: center;
+}
+.site-header .header-element .header-slogan .title {
+  width: 590px;
+  height: 58px;
+  background-color: #000;
+  color: #fff;
+  line-height: 58px;
+  text-align: center;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+.site-header .header-element .header-slogan .slogan {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 7px;
+  line-height: 24px;
+}
+.content {
+  background-color: #fafafa;
+  margin-top: -20px;
+  padding-top: 75px;
+}
+.content .container .foto {
+  width: 530px;
+  height: 600px;
+  background: url('../img/about_img1.jpg') no-repeat;
+  background-position-x: 80%;
+  float: left;
+  margin-right: 54px;
+  transition: 0.3s ease;
+  margin-bottom: 100px;
+}
+.content .container .foto:hover {
+  background: url('../img/about-img1_1.jpg') no-repeat;
+  background-position-x: 60%;
+}
+.content .container .our-story > h3 {
+  color: #858585;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 5px 0;
+}
+.content .container .our-story > p {
+  color: #858585;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 0;
+}
+.content .container .our-skills > h3 {
+  color: #858585;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 0;
+}
+.content .container .our-skills .graph .graph-title {
+  font-size: 16px;
+  color: #333;
+  margin: 18px 0;
+  padding: 0;
+}
+.content .container .our-skills .graph .graph-background {
+  display: inline-block;
+  width: 545px;
+  height: 2px;
+  background-color: #ebebeb;
+  border: 4px solid #ebebeb;
+}
+.content .container .our-skills .graph .graph-background .graph-filling {
+  height: 2px;
+  background-color: #9f9f9f;
+  position: relative;
+}
+.content .container .our-skills .graph .graph-background .graph-filling .graph-ellipse {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  content: '';
+  width: 4px;
+  height: 4px;
+  background-color: #ebebeb;
+  border: 4px solid #000;
+  border-radius: 100%;
+}
+.content .container .our-skills .graph .graph-background .graph-filling .indicator {
+  position: absolute;
+  content: '';
+  width: 40px;
+  height: 20px;
+  top: -40px;
+  right: -40px;
+  background-color: #131c11;
+  z-index: 100;
+}
+.content .container .our-skills .graph .graph-background .graph-filling .indicator > span {
+  display: block;
+  color: #fff;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+}
+.content .container .our-skills .graph .graph-background .graph-filling .indicator > span::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #131c11;
+  width: 15px;
+  height: 15px;
+  top: 8px;
+  left: 0;
+  z-index: -1;
+  transform: rotate(90deg) skew(45deg);
+}
+.content .container .our-skills .graph .graph-background .filling-1 {
+  width: 90%;
+}
+.content .container .our-skills .graph .graph-background .filling-2 {
+  width: 95%;
+}
+.content .container .our-skills .graph .graph-background .filling-3 {
+  width: 50%;
+}
+.content .container .our-skills .graph .graph-background .filling-4 {
+  width: 85%;
+}
+.content .container .awesome-title {
+  text-align: center;
+  color: #000;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 300;
+}
+.content .container .awesome-paragraf {
+  display: block;
+  margin: 0 auto;
+  width: 615px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+  color: #9a9a9a;
+  margin-bottom: 40px;
+}
+.content .container .team {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 75px;
+}
+.content .container .team .team-element {
+  width: 360px;
+  height: 625px;
+  background-color: #fff;
+}
+.content .container .team .team-element .team-foto {
+  height: 440px;
+  width: 100%;
+}
+.content .container .team .team-element .foto-1 {
+  background: #eee url('../img/about_img2.png') no-repeat bottom;
+}
+.content .container .team .team-element .foto-2 {
+  background: #eee url('../img/about_img3.png') no-repeat bottom;
+}
+.content .container .team .team-element .foto-3 {
+  background: #eee url('../img/about_img4.png') no-repeat;
+}
+.content .container .team .team-element .name {
+  color: #152618;
+  padding: 30px 0 0 35px;
+  margin: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.content .container .team .team-element .present-post {
+  margin: 0;
+  padding: 5px 0 0 35px;
+  color: #9b9b9b;
+  font-weight: bold;
+}
+.content .container .team .team-element .info {
+  margin: 0;
+  padding: 15px 35px 0 35px;
+  color: #c4c4c4;
+  font-size: 14px;
+  line-height: 25px;
+}
