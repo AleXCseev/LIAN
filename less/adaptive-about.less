@@ -14,8 +14,277 @@
     }
 }
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    .container {
+        width: 924px;
+    }
 
-@media (max-width: 768px) {}
+    .content {
+        .container {
+            .foto {
+                width: 430px;
+                height: 480px;
+                background-position-x: 85%;
+                margin-right: 34px;
+            }
 
-@media (max-width: 375px) {}
+            .our-story {
+                >h3 {
+                    font-size: 16px;
+                    padding: 0;
+                }
+
+                >p {
+                    font-size: 14px;
+                    line-height: 18px;
+                    padding: 5px 0;
+                }
+            }
+
+            .our-skills {
+                >h3 {
+                    font-size: 16px;
+                    padding: 0;
+                }
+
+                .graph {
+                    .graph-title {
+                        margin: 13px 0;
+                    }
+
+                    .graph-background {
+                        width: 450px;
+                    }
+                }
+            }
+        }
+
+        .container {
+            .team {
+                .team-element {
+                    width: 290px;
+                    height: 500px;
+
+                    .team-foto {
+                        height: 350px;
+                    }
+
+                    .foto-1 {
+                        background-position-y: -10%;
+                    }
+
+                    .foto-2 {
+                        background-position-y: -10%;
+                    }
+
+                    .name {
+                        padding: 15px 0 0 35px;
+                        font-size: 18px;
+                    }
+
+                    .info {
+                        padding: 10px 35px 0 35px;
+                        line-height: 20px;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 688px;
+    }
+
+    .site-header {
+        .header-element {
+            margin: 0;
+
+        }
+    }
+
+    .content {
+        margin: 0;
+        padding-top: 25px;
+
+        .container {
+            .foto {
+                width: 380px;
+                height: 400px;
+                margin-bottom: 20px;
+            }
+
+            .our-story {
+                padding-bottom: 150px;
+            }
+
+            .our-skills {
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+            }
+        }
+
+        .container {
+            .awesome-title {
+                margin-top: 100px;
+            }
+
+            .awesome-paragraf {
+                margin-bottom: 80px;
+            }
+
+            .team {
+                .team-element {
+                    width: 200px;
+                    height: 520px;
+
+                    .team-foto {
+                        height: 350px;
+                    }
+
+                    .foto-3 {
+                        background-position-x: 50%;
+                    }
+
+                    .name {
+                        padding: 15px 0 0 15px;
+                    }
+
+                    .present-post {
+                        padding: 5px 0 0 15px;
+                    }
+
+                    .info {
+                        padding: 10px 15px 0 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 320px;
+    }
+
+    .site-header {
+        .header-element {
+            height: 100vh;
+            background-size: cover;
+            background-position-x: 80%;
+            align-content: center;
+
+            .header-slogan {
+
+                .title {
+                    width: 320px;
+                    height: 116px;
+                    background-color: rgba(0, 0, 0, 0.8);
+
+                }
+
+                .slogan {
+                    font-weight: bold;
+                    font-size: 24px;
+                    text-align: center;
+                    background-color: rgba(0, 0, 0, 0.8);
+                    color: #fff;
+                    width: 320px;
+                    height: 50px;
+                    line-height: 50px;
+
+                }
+            }
+        }
+    }
+
+    .content {
+        .container {
+            .foto {
+                width: 320px;
+                height: 500px;
+                margin-bottom: 20px;
+                background: url('../img/about-img1_1.jpg') no-repeat;
+                background-position-x: 55%;
+
+                &:hover {
+                    background-position-x: 55%;
+                }
+            }
+
+            .our-story {
+                padding-bottom: 50px;
+                width: 320px;
+            }
+
+            .our-skills {
+                margin: 0 auto;
+                width: 300px;
+
+                .graph {
+                    .graph-background {
+                        width: 300px;
+
+                        .graph-filling {
+                            .indicator {
+                                width: 25px;
+                                right: -25px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .container {
+            .awesome-title {
+                letter-spacing: 5px;
+            }
+
+            .awesome-paragraf {
+                width: 320px;
+            }
+
+            .team {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .team-element {
+                    width: 300px;
+                    height: 580px;
+                    margin-bottom: 50px;
+
+                    .team-foto {
+                        height: 400px;
+                    }
+
+                    .foto-3 {
+                        background-position-x: 50%;
+                    }
+
+                    .name {
+                        padding: 25px 0 0 15px;
+                    }
+
+                    .present-post {
+                        padding: 10px 0 0 15px;
+                    }
+
+                    .info {
+                        padding: 15px 15px 0 15px;
+                    }
+                }
+            }
+        }
+    }
+}

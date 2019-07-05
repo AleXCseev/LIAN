@@ -47,9 +47,9 @@
   position: absolute;
   content: "";
   top: 8px;
-  left: -30px;
+  left: -20px;
   height: 1px;
-  width: 15px;
+  width: 10px;
   background-color: #000;
 }
 .burger-button {

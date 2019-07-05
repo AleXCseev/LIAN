@@ -36,7 +36,7 @@ body {
 .content .container .foto {
   width: 530px;
   height: 600px;
-  background: url('../img/about_img1.jpg') no-repeat;
+  background: url('../img/about_img1.jpg') no-repeat center;
   background-position-x: 80%;
   float: left;
   margin-right: 54px;
