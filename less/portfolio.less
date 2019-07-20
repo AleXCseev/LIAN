@@ -1,0 +1,452 @@
+// out: ../css/portfolio.css
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.site-header {
+  .header-element {
+    margin-top: 92px;
+    width: 100%;
+    height: 350px;
+    background: #e2e2e2 url("../img/portfolio_2.png") no-repeat right center;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background: #e2e2e2 url("../img/portfolio_1.png") no-repeat right center;
+    }
+
+    .header-slogan {
+      .title {
+        width: 590px;
+        height: 58px;
+        background-color: #000;
+        color: #fff;
+        line-height: 58px;
+        text-align: center;
+        font-size: 48px;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 5px;
+      }
+
+      .slogan {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 7px;
+        line-height: 24px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+
+      .text {
+        color: #949494;
+        font-size: 14px;
+        line-height: 30px;
+        width: 900px;
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.site-content {
+  width: 100%;
+  height: auto;
+  background-color: #fafafa;
+
+  .control {
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0px 8px 20px 0 #e5e8e9;
+    box-sizing: border-box;
+
+    .container {
+      .control-wrapper {
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+
+        .control-btn {
+          .btn {
+            border: none;
+            background: none;
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: bold;
+            color: #172d17;
+            width: 165px;
+            height: 60px;
+            border-left: 1px solid #ebebeb;
+            border-right: 1px solid #ebebeb;
+            margin: 0;
+            position: relative;
+            box-sizing: border-box;
+          }
+
+          .previous {
+            border-right: none;
+
+            >.fa {
+              color: #172d17;
+              font-size: 13px;
+              padding-right: 14px;
+            }
+          }
+
+          .next {
+            >.fa {
+              color: #172d17;
+              font-size: 13px;
+              padding-left: 14px;
+            }
+          }
+        }
+
+        .control-all {
+          .btn {
+            border: none;
+            background: none;
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: bold;
+            color: #172d17;
+            width: 195px;
+            height: 60px;
+            border-left: 1px solid #ebebeb;
+            border-right: 1px solid #ebebeb;
+            margin: 0;
+
+            >.fa {
+              padding-right: 14px;
+            }
+          }
+
+          .all {}
+        }
+      }
+    }
+  }
+
+  .slider-section {
+    padding-top: 75px;
+    transition: 0.5s ease;
+    box-shadow: none;
+    padding-bottom: 25px;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+
+      .image-section {
+        margin-right: 65px;
+
+        .big-image {
+          width: 485px;
+          height: 512px;
+          background: #d2d2d2 url("../img/portfolio_3.jpg") no-repeat center;
+          background-size: cover;
+          background-position-y: 70%;
+        }
+
+        .big-image-2 {
+          background: #d2d2d2 url("../img/2.jpg") no-repeat center;
+          width: 500px;
+          height: 350px;
+          background-size: contain;
+        }
+
+        .small-image-section {
+          display: flex;
+          justify-content: space-between;
+          padding: 0;
+          margin: 0;
+          width: 485px;
+          margin-top: 12px;
+
+          .small-image {
+            width: 115px;
+            height: 115px;
+            position: relative;
+
+            .mask {
+              position: absolute;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              background-color: transparent;
+              transition: background 0.3s ease;
+
+              &:hover {
+                background-color: rgba(0, 0, 0, 0.5);
+              }
+            }
+          }
+
+          .image-1 {
+            background: url("../img/portfolio_3.jpg") no-repeat center;
+            background-size: cover;
+            background-position-y: 70%;
+          }
+
+          .image-2 {
+            background: url("../img/portfolio_4.jpg") no-repeat center;
+            background-position-y: 45%;
+            background-position-x: 20%;
+          }
+
+          .image-3 {
+            background: url("../img/5.jpg") no-repeat center;
+            background-size: cover;
+          }
+
+          .image-4 {
+            background: url("../img/3.jpg") no-repeat center;
+            background-size: cover;
+            background-position-y: 70%;
+          }
+        }
+      }
+
+      .info-section {
+        margin: 0;
+        padding: 0;
+
+        .section-title {
+          margin: 0;
+          text-transform: uppercase;
+          letter-spacing: 7px;
+          font-size: 22px;
+          font-weight: 400;
+          color: #000;
+        }
+
+        .section-subtitle {
+          margin: 0;
+          color: #555;
+          margin-top: 10px;
+        }
+
+        .text-section {
+          margin: 0;
+          width: 100%;
+          border-top: 1px solid #ccc;
+          border-bottom: 1px solid #ccc;
+          margin-top: 25px;
+
+          .date {
+            display: inline-block;
+            color: #555;
+            margin: 0;
+            font-weight: bold;
+            margin-right: 65px;
+            margin-top: 25px;
+          }
+
+          .likes {
+            display: inline-block;
+            color: #555;
+            font-weight: bold;
+            margin: 0;
+
+            .fa {
+              padding-right: 8px;
+            }
+          }
+
+          .text {
+            margin: 0;
+            width: 100%;
+            font-size: 14px;
+            color: #777;
+            line-height: 30px;
+            font-weight: 400;
+            margin-top: 20px;
+            margin-bottom: 40px;
+          }
+        }
+
+        .tags-section {
+          .tags-section-title {
+            margin: 0;
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-top: 30px;
+            margin-bottom: 15px;
+          }
+
+          .tags-section-text {
+            margin: 0;
+            color: #b3b3b3;
+            margin-bottom: 50px;
+          }
+        }
+
+        .share {
+          display: flex;
+          margin: 0;
+          margin-top: 100px;
+
+          .share-btn {
+            border: none;
+            background: none;
+            width: 88px;
+            height: 43px;
+            background-color: #707070;
+            color: #fff;
+            text-transform: uppercase;
+            border-radius: 2px;
+            display: inline-block;
+
+            >.fa {
+              padding-right: 7px;
+            }
+          }
+
+          .dropdown {
+            margin: 0;
+            padding: 0;
+            margin-left: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 285px;
+            height: 43px;
+            background-color: #e1e1e1;
+            position: relative;
+            transform: translateX(-30px);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.5s ease;
+            outline: none;
+            user-select: none;
+            border-radius: 2px;
+
+            &::after {
+              position: absolute;
+              content: "";
+              top: 18px;
+              left: -5px;
+              background-color: #e1e1e1;
+              width: 10px;
+              height: 10px;
+              transform: rotate(45deg);
+            }
+
+            &.active {
+              opacity: 1;
+              visibility: visible;
+              transform: none;
+            }
+
+            >li {
+              padding: 0;
+              margin: 0;
+              list-style: none;
+
+              >a {
+                color: #707070;
+                transition: color 0.3s ease;
+
+                &:hover {
+                  color: #000;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section-2 {
+    .container-2 {
+      flex-direction: row-reverse;
+      margin: 0 auto;
+
+      .image-section-2 {
+        margin: 0;
+        margin-left: 65px;
+      }
+    }
+  }
+
+  .related-block {
+    padding: 0;
+    margin: 0;
+    padding-top: 100px;
+
+    box-shadow: 0px 8px 20px 0 #e5e8e9;
+
+    .container {
+      .related-block-title {
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 7px;
+        font-size: 26px;
+        font-weight: 400;
+        color: #000;
+        text-align: center;
+      }
+
+      .related-block-paragraf {
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+        padding-top: 40px;
+        color: #9a9a9a;
+        font-weight: 400;
+        line-height: 30px;
+        font-size: 15px;
+      }
+
+      .related-block-image {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 80px;
+
+        .image {
+          width: 358px;
+          height: 250px;
+        }
+
+        .image-1 {
+          background: url("../img/portfolio_6.jpg") no-repeat center;
+          background-size: contain;
+        }
+
+        .image-2 {
+          background: url("../img/portfolio_3.jpg") no-repeat center;
+          background-size: cover;
+        }
+
+        .image-3 {
+          background: url("../img/3.jpg") no-repeat center;
+          background-size: contain;
+        }
+      }
+    }
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  opacity: 0;
+}

@@ -1,0 +1,218 @@
+// out: ../css/adaptive-portfolio.css
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 924px;
+  }
+
+  .site-header {
+    .header-element {
+      .header-slogan {
+        .text {
+          width: 600px;
+        }
+      }
+    }
+  }
+
+  .site-content {
+    .slider-section {
+      .container {
+        .image-section {
+          margin-right: 35px;
+
+          .big-image {
+            width: 400px;
+            height: 450px;
+          }
+
+          .big-image-2 {
+            width: 400px;
+            height: 280px;
+          }
+
+          .small-image-section {
+            width: 400px;
+
+            .small-image {
+              width: 90px;
+              height: 90px;
+            }
+          }
+        }
+
+        .info-section {
+          .tags-section {
+            .tags-section-text {
+              margin-bottom: 20px;
+            }
+          }
+
+          .share {
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+
+    .section-2 {
+      .container-2 {
+        .image-section-2 {
+          margin-left: 20px;
+          margin-right: 0px;
+        }
+      }
+    }
+
+    .related-block {
+      padding-top: 70px;
+
+      .container {
+        .related-block-paragraf {
+          width: 70%;
+          padding-top: 20px;
+        }
+
+        .related-block-image {
+          .image {
+            width: 290px;
+            height: 215px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 924px) {
+  .container {
+    width: 688px;
+  }
+
+  .site-header {
+    .header-element {
+      margin: 0;
+      background-position-x: 150%;
+
+      &:hover {
+        background-position-x: 150%;
+      }
+    }
+  }
+
+  .site-content {
+    .slider-section {
+      padding-top: 45px;
+
+      .container {
+        .image-section {
+          .big-image {
+            width: 300px;
+            height: 350px;
+          }
+
+          .big-image-2 {
+            height: 210px;
+          }
+
+          .small-image-section {
+            width: 300px;
+
+            .small-image {
+              width: 70px;
+              height: 70px;
+            }
+          }
+        }
+
+        .info-section {
+          width: 360px;
+
+          .section-title {
+            font-size: 18px;
+            letter-spacing: 5px;
+          }
+
+          .text-section {
+            .text {
+              font-size: 13px;
+              margin-bottom: 15px;
+            }
+          }
+
+          .tags-section {
+            .tags-section-title {
+              font-size: 14px;
+              margin-top: 15px;
+              margin-bottom: 10px;
+            }
+          }
+
+          .share {
+            margin-top: 30px;
+
+            .share-btn {
+              width: 100px;
+              height: 40px;
+            }
+
+            .dropdown {
+              width: 260px;
+              height: 40px;
+              margin-left: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    .related-block {
+      padding-top: 50px;
+
+      .container {
+        .related-block-image {
+          .image {
+            width: 220px;
+            height: 155px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 688px) {
+  .container {
+    width: 320px;
+  }
+
+  .site-header {
+    .header-element {
+      height: 100vh;
+      &:hover {
+        background: #e2e2e2 url("../img/portfolio_2.png") no-repeat right center;
+      }
+    }
+    .header-slogan {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .title {
+      }
+    }
+  }
+}

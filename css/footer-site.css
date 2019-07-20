@@ -49,7 +49,7 @@
 .site-footer .copiryght > p > span {
   color: #000;
 }
-@media (max-width: 600px) {
+@media (max-width: 688px) {
   .site-footer .social > ul > li {
     padding: 0 15px;
   }
