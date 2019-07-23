@@ -4,139 +4,178 @@
   max-width: 1140px;
   margin: 0 auto;
 }
+
 .container::after {
   content: "";
   display: table;
   clear: both;
 }
+
 @media (max-width: 1024px) {
   .container {
     width: 924px;
   }
+
   .site-header .header-slider .slick-prev {
     left: 50px;
   }
+
   .site-header .header-slider .slick-next {
     right: 50px;
   }
+
   .site-content .img-group .col-center {
     padding: 0 15px;
   }
+
   .site-content .img-group .col {
     width: 298px;
   }
+
   .site-content .img-group .col .image {
     width: 298px;
     margin: 0 0 18 0;
   }
+
   .site-content .img-group .col .image-1 {
     height: 290px;
   }
+
   .site-content .img-group .col .image-2 {
     height: 190px;
   }
+
   .site-content .img-group .col .image-3 {
     height: 360px;
   }
+
   .site-content .img-group .col .image-4 {
     height: 190px;
   }
+
   .site-content .img-group .col .image-5 {
     height: 290px;
   }
+
   .site-content .img-group .col .image-6 {
     height: 190px;
   }
+
   .site-content .img-group .col .image-7 {
     height: 360px;
   }
+
   .site-content .img-group .col .image-8 {
     height: 190px;
   }
+
   .site-content .img-group .col .image-9 {
     height: 290px;
   }
+
   .site-content .img-group .col .image-10 {
     height: 290px;
   }
 }
+
 @media (max-width: 924px) {
   .container {
     width: 688px;
   }
+
   .site-header .header-slider {
     margin: 0;
     height: 500px;
   }
+
   .site-header .header-slider .slick-prev {
     opacity: 0;
     visibility: hidden;
   }
+
   .site-header .header-slider .slick-next {
     opacity: 0;
     visibility: hidden;
   }
+
   .site-header .header-slider .slick-arrow {
     display: none;
   }
+
   .site-header .header-slider .slide {
     height: 500px;
   }
+
   .site-header .header-slider .slide .slide-element .title {
     width: 600px;
     height: 50px;
     line-height: 50px;
     font-size: 40px;
   }
+
   .site-header .header-slider .slide .slide-element .slogan {
     font-size: 16px;
   }
+
   .site-header .header-slider .slide-1 {
     background-size: cover;
   }
+
   .site-header .header-slider .slide-2 {
     background-size: cover;
   }
-  .site-content .btn-group > ul > li {
+
+  .site-content .btn-group>ul>li {
     padding: 0 13;
   }
-  .site-content .btn-group > ul > li .btn-element {
+
+  .site-content .btn-group>ul>li .btn-element {
     font-size: 12px;
   }
+
   .site-content .img-group .container .col {
     width: 335px;
   }
+
   .site-content .img-group .container .col .image {
     width: 335px;
     margin: 0 0 18 0;
   }
+
   .site-content .img-group .container .col-center {
     padding: 0;
     padding-left: 18px;
   }
+
   .site-content .img-group .container .col-right {
     width: 688px;
   }
-  .site-content .img-group .container .col-right > .image {
+
+  .site-content .img-group .container .col-right>.image {
     float: left;
     width: 335px;
   }
+
   .site-content .img-group .container .col-right .image-6,
   .site-content .img-group .container .col-right .image-9 {
     margin-left: 18px;
   }
 }
+
 @media (max-width: 688px) {
   .container {
     width: 320px;
   }
+
   .site-header .header-slider {
     width: 100%;
     height: 100vh;
   }
+
   .site-header .header-slider .slide {
     height: 100vh;
   }
+
   .site-header .header-slider .slide .slide-element .title {
     display: flex;
     justify-content: center;
@@ -147,46 +186,59 @@
     background-color: rgba(0, 0, 0, 0.5);
     line-height: 36px;
   }
+
   .site-header .header-slider .slide .slide-element .slogan {
     font-size: 14px;
   }
+
   .site-header .header-slider .slide-1 {
     background-position-x: 100%;
     background-size: cover;
   }
+
   .site-header .header-slider .slide-2 {
     background-position-x: -200px;
     background-size: cover;
   }
+
   .site-content .btn-group {
     height: 120px;
   }
-  .site-content .btn-group > ul {
+
+  .site-content .btn-group>ul {
     flex-wrap: wrap;
   }
-  .site-content .btn-group > ul > li {
+
+  .site-content .btn-group>ul>li {
     padding: 0 12px;
   }
-  .site-content .btn-group > ul > li .btn-element {
+
+  .site-content .btn-group>ul>li .btn-element {
     font-size: 12px;
   }
+
   .site-content .img-group .container .col {
     margin: 0 auto;
     width: 320px;
   }
+
   .site-content .img-group .container .col .image {
     width: 100%;
   }
+
   .site-content .img-group .container .col .image .mask {
     width: 320px;
   }
+
   .site-content .img-group .container .col-center {
     padding: 0;
   }
+
   .site-content .img-group .container .col-right {
     width: 320px;
   }
-  .site-content .img-group .container .col-right > .image {
+
+  .site-content .img-group .container .col-right>.image {
     float: none;
     margin: 0 0 18px 0;
   }

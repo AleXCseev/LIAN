@@ -202,16 +202,131 @@
   .site-header {
     .header-element {
       height: 100vh;
+      background-size: 80%;
+      background-position: center;
+
       &:hover {
-        background: #e2e2e2 url("../img/portfolio_2.png") no-repeat right center;
+        background: #e2e2e2 url("../img/portfolio_2.png") no-repeat center;
+        background-size: 80%;
+        background-position: center;
+      }
+
+      .header-slogan {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .title {
+          width: 320px;
+          height: 100px;
+          font-size: 40px;
+          line-height: 50px;
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .slogan {
+          letter-spacing: 5px;
+        }
+
+        .text {
+          width: 320px;
+        }
       }
     }
-    .header-slogan {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      .title {
+  }
+
+  .site-content {
+    .control {
+      .container {
+        .control-wrapper {
+          .control-btn {
+
+            .btn {
+              width: 100px;
+              font-size: 12px;
+            }
+
+            .previous {
+              >.fa {
+                font-size: 12px;
+                padding-right: 10px;
+              }
+            }
+
+            .next {
+              >.fa {
+                font-size: 12px;
+                padding-left: 10px;
+              }
+            }
+          }
+
+          .control-all {
+            .btn {
+              width: 110px;
+              border-left: none;
+              font-size: 12px;
+
+              >.fa {
+                padding-right: 10px;
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .slider-section {
+      .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        .image-section {
+          margin: 0;
+
+          .big-image {
+            width: 320px;
+            height: 350px;
+          }
+
+          .big-image-2 {
+            width: 320px;
+            height: 226px;
+          }
+
+          .small-image-section {
+            width: 320px;
+          }
+        }
+
+        .info-section {
+          padding-top: 50px;
+          width: 320px;
+
+          .section-title {
+            font-size: 20px;
+            letter-spacing: 5px;
+          }
+        }
+      }
+    }
+
+    .related-block {
+      .container {
+        .related-block-paragraf {
+          width: 100%;
+        }
+
+        .related-block-image {
+          .image {
+            width: 100px;
+            height: 70px;
+          }
+        }
       }
     }
   }

@@ -1,12 +1,14 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
 .site-header .header-slider {
   margin-top: 92px;
   width: 100%;
   height: 648px;
   position: relative;
 }
+
 .site-header .header-slider .slick-prev {
   position: absolute;
   top: 50%;
@@ -16,10 +18,12 @@ body {
   background: url("../img/Ellipse 1.png") no-repeat center;
   transition: 0.3s ease;
 }
+
 .site-header .header-slider .slick-prev:hover {
   background: url("../img/Rectangle 1.png") no-repeat center;
   transform: translateY(-50%) rotate(180deg);
 }
+
 .site-header .header-slider .slick-next {
   position: absolute;
   top: 50%;
@@ -29,10 +33,12 @@ body {
   transform: translateY(-50%) rotate(180deg);
   transition: 0.3s ease;
 }
+
 .site-header .header-slider .slick-next:hover {
   background: url("../img/Rectangle 1.png") no-repeat center;
   transform: translateY(-50%) rotate(0deg);
 }
+
 .site-header .header-slider .slick-arrow {
   font-size: 0px;
   box-sizing: border-box;
@@ -50,6 +56,7 @@ body {
   cursor: pointer;
   outline: none;
 }
+
 .site-header .header-slider .slick-dots {
   position: absolute;
   text-align: center;
@@ -59,12 +66,14 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .site-header .header-slider .slick-dots li {
   display: inline-block;
   list-style: none;
   margin: 0;
   padding: 16px;
 }
+
 .site-header .header-slider .slick-dots li button {
   width: 15px;
   height: 15px;
@@ -78,19 +87,23 @@ body {
   cursor: pointer;
   outline: none;
 }
+
 .site-header .header-slider .slick-dots .slick-active button {
   border: 5px solid #000;
 }
+
 .site-header .header-slider .slide {
   height: 648px;
   position: relative;
 }
+
 .site-header .header-slider .slide .slide-element {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .site-header .header-slider .slide .slide-element .title {
   width: 700px;
   height: 58px;
@@ -103,6 +116,7 @@ body {
   font-weight: 300;
   letter-spacing: 5px;
 }
+
 .site-header .header-slider .slide .slide-element .slogan {
   text-align: center;
   font-size: 18px;
@@ -111,12 +125,15 @@ body {
   letter-spacing: 7px;
   line-height: 24px;
 }
+
 .site-header .header-slider .slide-1 {
   background: url("../img/header.jpg") no-repeat center;
 }
+
 .site-header .header-slider .slide-2 {
   background: url("../img/header2.jpg") no-repeat center;
 }
+
 .site-content .btn-group {
   height: 60px;
   width: 100%;
@@ -125,7 +142,8 @@ body {
   border-top: 1px solid #e1e1e1;
   border-bottom: 1px solid #e1e1e1;
 }
-.site-content .btn-group > ul {
+
+.site-content .btn-group>ul {
   height: 100%;
   list-style: none;
   margin: 0;
@@ -134,10 +152,12 @@ body {
   justify-content: center;
   align-items: center;
 }
-.site-content .btn-group > ul > li {
+
+.site-content .btn-group>ul>li {
   padding: 0 23px;
 }
-.site-content .btn-group > ul > li .btn-element {
+
+.site-content .btn-group>ul>li .btn-element {
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
@@ -145,101 +165,122 @@ body {
   color: #bdbdbd;
   transition: all 0.3s ease;
 }
-.site-content .btn-group > ul > li .btn-element:hover {
+
+.site-content .btn-group>ul>li .btn-element:hover {
   color: #888;
 }
-.site-content .btn-group > ul > li .active {
+
+.site-content .btn-group>ul>li .active {
   color: #000;
 }
-.site-content .btn-group > ul .separator {
+
+.site-content .btn-group>ul .separator {
   display: block;
   width: 1px;
   height: 26px;
   background-color: #dadada;
   transform: rotate(15deg);
 }
+
 .site-content .img-group {
   display: block;
   background-color: #fafafa;
   width: 100%;
   height: auto;
 }
+
 .site-content .img-group::after {
   content: "";
   display: table;
   clear: both;
 }
+
 .site-content .img-group .col {
   float: left;
   width: 360px;
 }
+
 .site-content .img-group .col .image-1 {
   height: 350px;
   background: url("../img/1.jpg") no-repeat center;
   background-size: cover;
 }
+
 .site-content .img-group .col .image-2 {
   height: 250px;
   background: url("../img/2.jpg") no-repeat center;
   background-size: cover;
 }
+
 .site-content .img-group .col .image-3 {
   height: 450px;
   background: url("../img/3.jpg") no-repeat center;
   background-size: cover;
 }
+
 .site-content .img-group .col .image-4 {
   height: 250px;
   background: url("../img/4.jpg") no-repeat center;
   background-size: cover;
 }
+
 .site-content .img-group .col .image-5 {
   height: 350px;
   background: url("../img/5.jpg") no-repeat center;
   background-size: cover;
 }
+
 .site-content .img-group .col .image-6 {
   height: 250px;
   background: url("../img/6.jpg") no-repeat center;
   background-size: cover;
 }
+
 .site-content .img-group .col .image-7 {
   height: 450px;
   background: url("../img/7.jpg") no-repeat center;
   background-size: cover;
 }
+
 .site-content .img-group .col .image-8 {
   height: 250px;
   background: url("../img/8.jpg") no-repeat center;
   background-size: cover;
 }
+
 .site-content .img-group .col .image-9 {
   height: 350px;
   background: url("../img/9.jpg") no-repeat center;
   background-size: cover;
 }
+
 .site-content .img-group .col .image-10 {
   height: 350px;
   background: url("../img/10.jpg") no-repeat center;
   background-size: cover;
 }
+
 .site-content .img-group .col .image {
   width: 360px;
   padding: 0;
   margin: 0 0 36px 0;
   box-sizing: border-box;
 }
+
 .site-content .img-group .col .image .mask {
   width: 100%;
   height: 100%;
   transition: 0.3s ease;
 }
+
 .site-content .img-group .col .image .mask:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
 .site-content .img-group .col-center {
   padding: 0 30px;
 }
+
 .site-content .btn {
   margin-bottom: 75px;
   display: flex;
@@ -247,6 +288,7 @@ body {
   align-items: center;
   background-color: #fafafa;
 }
+
 .site-content .btn .btn-more {
   line-height: 32px;
   text-align: center;
@@ -261,6 +303,7 @@ body {
   border-radius: 3px;
   transition: 0.3s ease;
 }
+
 .site-content .btn .btn-more:hover {
   font-size: 15px;
 }

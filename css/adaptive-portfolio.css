@@ -126,14 +126,87 @@
   }
   .site-header .header-element {
     height: 100vh;
+    background-size: 80%;
+    background-position: center;
   }
   .site-header .header-element:hover {
-    background: #e2e2e2 url("../img/portfolio_2.png") no-repeat right center;
+    background: #e2e2e2 url("../img/portfolio_2.png") no-repeat center;
+    background-size: 80%;
+    background-position: center;
   }
-  .site-header .header-slogan {
+  .site-header .header-element .header-slogan {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .site-header .header-element .header-slogan .title {
+    width: 320px;
+    height: 100px;
+    font-size: 40px;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .site-header .header-element .header-slogan .slogan {
+    letter-spacing: 5px;
+  }
+  .site-header .header-element .header-slogan .text {
+    width: 320px;
+  }
+  .site-content .control .container .control-wrapper .control-btn .btn {
+    width: 100px;
+    font-size: 12px;
+  }
+  .site-content .control .container .control-wrapper .control-btn .previous > .fa {
+    font-size: 12px;
+    padding-right: 10px;
+  }
+  .site-content .control .container .control-wrapper .control-btn .next > .fa {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  .site-content .control .container .control-wrapper .control-all .btn {
+    width: 110px;
+    border-left: none;
+    font-size: 12px;
+  }
+  .site-content .control .container .control-wrapper .control-all .btn > .fa {
+    padding-right: 10px;
+    font-size: 12px;
+  }
+  .site-content .slider-section .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .site-content .slider-section .container .image-section {
+    margin: 0;
+  }
+  .site-content .slider-section .container .image-section .big-image {
+    width: 320px;
+    height: 350px;
+  }
+  .site-content .slider-section .container .image-section .big-image-2 {
+    width: 320px;
+    height: 226px;
+  }
+  .site-content .slider-section .container .image-section .small-image-section {
+    width: 320px;
+  }
+  .site-content .slider-section .container .info-section {
+    padding-top: 50px;
+    width: 320px;
+  }
+  .site-content .slider-section .container .info-section .section-title {
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+  .site-content .related-block .container .related-block-paragraf {
+    width: 100%;
+  }
+  .site-content .related-block .container .related-block-image .image {
+    width: 100px;
+    height: 70px;
   }
 }

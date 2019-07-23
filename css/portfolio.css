@@ -75,7 +75,6 @@ body {
   border-left: 1px solid #ebebeb;
   border-right: 1px solid #ebebeb;
   margin: 0;
-  position: relative;
   box-sizing: border-box;
 }
 .site-content .control .container .control-wrapper .control-btn .previous {
@@ -103,6 +102,7 @@ body {
   border-left: 1px solid #ebebeb;
   border-right: 1px solid #ebebeb;
   margin: 0;
+  box-sizing: border-box;
 }
 .site-content .control .container .control-wrapper .control-all .btn > .fa {
   padding-right: 14px;
